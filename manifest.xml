@@ -7,6 +7,5 @@
 	<default remote="yocto" revision="master" sync-j="4"/>
 	
 	<project name="poky" path="layers/poky" revision="c69a8d27420f6eb0c8723c597919ea15611a20fb"/>
-	<project name="meta-raspberrypi" path="layers/" revision="eef54b11dd139b495d4ab2b2778fb2b073f3b6f7"/>
-
+	<project name="meta-raspberrypi" path="layers/meta-raspberrypi" revision="9e12ad97b4c95772c6f403b9318f2bec2ab09e53"/>
 </manifest>
