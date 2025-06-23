@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+	<remote name="yocto" fetch="https://git.yoctoproject.org/" review="review.yoctoproject.org" />
+	<remote name="edge-ai" fetch="https://github.com/snehJain9427"/>
+
+	<default remote="yocto" revision="master" sync-j="4"/>
+	
+	<project name="poky" path="layers/poky" revision="kirkstone"/>
+
+</manifest>
