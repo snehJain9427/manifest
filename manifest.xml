@@ -2,13 +2,14 @@
 
 <manifest>
 	<remote name="yocto" fetch="https://git.yoctoproject.org/" review="review.yoctoproject.org" />
-	<remote name="edge-ai" fetch="https://github.com/snehJain9427"/>
+	<remote name="edge-ai" fetch="https://github.com/"/>
 
 	<default remote="yocto" revision="master" sync-j="4"/>
 	
 	<project name="poky" path="layers/poky" revision="52b3a3b7c59215afcaa2e4e4508f86b359374f3e"/>
 	<project name="meta-raspberrypi" path="layers/meta-raspberrypi" revision="9e12ad97b4c95772c6f403b9318f2bec2ab09e53"/>
-	<project name="meta-codeemsys" remote="edge-ai" path="layers/meta-codeemsys" revision="main"/>
-	<project name="codeemsys-conf" remote="edge-ai" path="codeemsys-conf" revision="main"/>
+	<project name="snehJain9427/meta-codeemsys" remote="edge-ai" path="layers/meta-codeemsys" revision="main"/>
+	<project name="snehJain9427/codeemsys-conf" remote="edge-ai" path="codeemsys-conf" revision="main"/>
+	<project name="openembedded/meta-openembedded" remote="edge-ai" path="layers/poky/meta-openembedded" revision="820047afe48a0d48056f4752defc3d2803c9d906"/>
 
 </manifest>
